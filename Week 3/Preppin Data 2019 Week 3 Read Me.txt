@@ -1,0 +1,29 @@
+Preppin' Data 2019: Week 3
+Source: https://preppindata.blogspot.com/2019/02/2019-week-3.html
+Solution: 
+
+
+Scenario:
+You work for a mobile / cell phone company. You boss asks you to pull together the revenue report of your current batch of contracts (sadly there are only four contracts!). 
+They need to know how much revenue is generated each month from these contracts whilst they are 'live' (ie from their start date until 'x' months in the future when the contract runs out).
+The aim of the week is to be able to create a chart like this but with all the data prep work done in Tableau Prep Builder. If you think that is simple - here's the input data:
+
+Viz Image: https://public.tableau.com/views/PreppinData-Week3/MobilePhonePayments?:embed=y&:display_count=yes
+
+Requirements:
+
+Import the file (https://drive.google.com/file/d/1PC6CXAmzCXpp1Xn8b06400XPTWkroRR6/view?usp=sharing)
+Make sure you use both sheets
+Use one sheet to help you create a row of data for each month the person's contract is 'live' for
+Remove unnecessary fields of data
+Output for use within Tableau Desktop
+Recreate the viz (https://public.tableau.com/views/PreppinData-Week3/MobilePhonePayments?:embed=y&:display_count=yes&publish=yes)
+
+
+Your output file should:
+Have five columns
+Have fifty-five rows of data (including the headers)
+Be at the person, per month level of detail
+Have no cells without a value
+Save as a .tde or .hyper file (csv if you are not going to build the view in Tableau Desktop)
+For comparison, here's our output file (https://drive.google.com/file/d/1PDmsyrZSVFrxxObhL5Hj8ODEqqTyV3Yu/view?usp=sharing). Don't to forget to fill in our participation tracker (https://docs.google.com/forms/d/e/1FAIpQLSdZzudRXwUvjhWwNawwz1kGXcYeQ9gBnAhCOvlA7qEDknGu4A/viewform)!
