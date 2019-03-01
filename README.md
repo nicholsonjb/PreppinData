@@ -1,5 +1,3 @@
-#Preppin' Data
-
 What's Preppin' Data about? 
 Welcome to Preppin' Data.
 
