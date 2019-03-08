@@ -11,6 +11,7 @@ Retain the car sales per colour columns
 Export the file 
 
 Due to the way Tableau Prep works, your output:
+
 Might not have the same row or column order as our output
 Will have the same number of columns (7)
 Will have the same number of rows (48)
