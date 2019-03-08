@@ -32,4 +32,4 @@ Output: (this is less prescribed this week)
 One row per game
 No cells without a value
 
-or comparison, here's our output file (https://drive.google.com/open?id=1IgBuHOZSbMlliGXDGVZCfnzJ7Y4Zb_H0)
+For comparison, here's our output file (https://drive.google.com/open?id=1IgBuHOZSbMlliGXDGVZCfnzJ7Y4Zb_H0)
