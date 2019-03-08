@@ -1,0 +1,35 @@
+Preppin' Data 2019: Week 4
+Source: https://preppindata.blogspot.com/2019/03/2019-week-4.html
+Solution: 
+
+Key Notes from ESPN datasource:
+Hi Points = Most points scored by a single player during the game
+Hi Rebounds = Most times a player has recovered possession after a missed shot
+Hi Assists = Most times a player has passed the ball to another player who then scored.
+
+Clean-up the data and answer the following questions.
+
+1. In games won by the Spurs, which player most often scores the most points?
+2. In games lost by the Spurs, which player most often scores the most points?
+3. What combination of players scores the most points, rebounds and assists the most frequently?
+4. Which player is the second most frequent at gaining the most assists in a game?
+5. With the answer to Q4, where do all these games happen: Home or Away?
+6. Which player scored the most points in games in October 2018 the most frequently?
+
+Requirements:
+
+Import the file (https://drive.google.com/open?id=1rEgVYKRVQrMJZXXGdB_QfrmPbH0SjMSk)
+Fix some date issues!
+Split the "Hi-" categories up so player and value is separate
+Determine whether each game was played by the Spurs: Home or Away 
+Determine whether the Spurs won or lost each game
+Get rid of unrequired columns
+
+Output: (this is less prescribed this week)
+
+64 rows of data (excluding the headers)
+13 columns (you might have different)
+One row per game
+No cells without a value
+
+or comparison, here's our output file (https://drive.google.com/open?id=1IgBuHOZSbMlliGXDGVZCfnzJ7Y4Zb_H0)
