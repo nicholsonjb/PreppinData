@@ -16,5 +16,4 @@ have 14 rows of data and a row of headers
 Have no cells without a value
 Just load beautifully into Tableau
 
-
 For comparison, here's our output file (https://drive.google.com/open?id=1N-5MIoT_KEQE01IYZgC3OlXsNAJZKAmv)
