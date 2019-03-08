@@ -19,7 +19,6 @@ Remove unnecessary fields of data
 Output for use within Tableau Desktop
 Recreate the viz (https://public.tableau.com/views/PreppinData-Week3/MobilePhonePayments?:embed=y&:display_count=yes&publish=yes)
 
-
 Your output file should:
 Have five columns
 Have fifty-five rows of data (including the headers)
