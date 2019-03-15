@@ -1,0 +1,30 @@
+Preppin' Data 2019: Week 5
+Source: https://preppindata.blogspot.com/2019/03/2019-week-5.html
+Solution: 
+
+The input for this week's data is from a small financial services company's contact centre who have to measure some key statistics like:
+
+Number of Balances that are being requested
+Number of Statements being asked for
+Number of complaints being raised
+
+
+We need to know those numbers by Policy Number and Customer ID so we can see who is using the call centre to hopefully get them on to our website instead to self-service.
+When are our busiest days for the contact types above? The data set we are asking you to create will allow you to load that in to Tableau to get those answers - create a viz if you want to!
+
+Requirements:
+
+Input data set (https://drive.google.com/open?id=1Rzx-P8o9Xel6H_bF2HziLCXsyabUWqAM)
+Create a date per day
+Determine how the customer contacted the company
+Create a separate column for the Policy Number
+Remove contacts that don't have a Policy Number
+Identify whether the contact was about a balance check, getting a statement or raising a complaint (it's all our boss cares about)
+Get rid of unrequired columns
+
+
+Output:
+15 Rows (16 including the column)
+6 Columns
+One row per day, per customer and policy
+For comparison, here's our output file(https://drive.google.com/open?id=1RtHE7TDIikbivTGJ2MAyoRUok6SEoQWs). 
