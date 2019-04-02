@@ -1,6 +1,6 @@
 Preppin' Data 2019: Week 7
 Source: https://preppindata.blogspot.com/2019/03/2019-week-7.html
-Solution: 
+Solution: https://preppindata.blogspot.com/2019/04/2019-week-7-solution.html
 
 The Scenario
 A shipping distribution company transports valuable cargo for customers all around the world using three different types of boat. 
@@ -10,7 +10,9 @@ A snippet of the Departure Details table.
 They sell and allocate space on their departures based on the weight and volume of the cargo. They keep the details of each allocation in a table called Allocation Details.
 
 A snippet of the Allocation Details table.
-In the last 3 months they’ve begun noticing issues where more weight or volume is being allocated than the boats can actually carry. This means customers are turning up at the port with cargo which the company is then having to turn away and refund. They want to identify and flag departures with weight or volume allocation issues before the day of departure.
+In the last 3 months they’ve begun noticing issues where more weight or volume is being allocated than the boats can actually carry. 
+This means customers are turning up at the port with cargo which the company is then having to turn away and refund.
+They want to identify and flag departures with weight or volume allocation issues before the day of departure.
 
 The Requirements
 
