@@ -17,3 +17,4 @@ So I hope you all enjoy the challenges, we will not set intentionally hard chall
 Have fun everyone!!
 
 Source: https://preppindata.blogspot.com/2019/02/whats-preppin-data-about.html
+Current version used: Tableau Prep Builder 2019-1-3
