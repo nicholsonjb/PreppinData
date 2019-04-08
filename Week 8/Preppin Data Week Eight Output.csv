@@ -1,0 +1,9 @@
+﻿Branch Name,Days to complete adjustment,Number of Records,Stock Adjusted,Stock Variance,Stolen Volume,Theft,Type
+Oxford Street,6,1,03/25/2019,0,10,03/19/2019,Bar
+Wimbledon 1,1,1,03/01/2019,2,22,02/28/2019,Bar
+Wimbledon 2,60,1,04/03/2019,0,2,02/02/2019,Liquid
+Wimbledon 2,,1,,,5,04/03/2019,Bar
+Oxford Street,,1,,,14,03/22/2019,Liquid
+Oxford Street,2,1,03/01/2019,0,105,02/27/2019,Liquid
+Wimbledon 1,0,1,03/02/2019,0,100,03/02/2019,Liquid
+Oxford Street,3,1,03/25/2019,1,5,03/22/2019,Bar

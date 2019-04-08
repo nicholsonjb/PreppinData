@@ -1,0 +1,32 @@
+Preppin' Data 2019: Week 8
+Source: https://preppindata.blogspot.com/2019/04/2019-week-8.html
+Solution: 
+
+As we saw last week, Profits are rolling in nicely from Chin & Beard Suds Co. but all is not perfect at the company. 
+Recently our Suds shops have been the victim of a number of thefts.Thankfully our systems allow our stores to record the thefts, 
+when the theft occurred and when we adjusted the inventory to reflect the reduced amounts.
+
+The data has all the parts we need to answer a few questions:
+What product is stolen the most?
+How many items of stock haven't been updated in the inventory levels yet? 
+What stores need to update their inventory levels?
+Which store is the fastest at updating inventory levels post a theft?
+Which stores have updated their stock levels incorrectly?
+To be able to answer these questions, we need you to create the following data set.
+
+Requirements:
+
+Input data from both sheets  (https://drive.google.com/open?id=1U0hPPU9zzI1tJYaAF29Uva-3NaH04l07)
+Update Store IDs to use the Store Names
+Clean up the Product Type to just return two products types: Bar and Liquid
+Measure the difference in days between when the theft occurred and when the stock was updated
+Measure the variance in stolen stock and inventory adjustment 
+*You will likely need Prep Builder v2019.1 as I used Rows to Columns pivot but you lot are innovative so who knows?*
+
+Output:
+
+8 Rows of data (9 including the header)
+8 Columns of data
+4 Null cells due to inventory updates not occurring
+One Row per Crime Refernce Number
+For comparison, here's our output file. (https://drive.google.com/open?id=1TtES9Qm0rn3egA5QRWI0Kh39Tuki8g69)
