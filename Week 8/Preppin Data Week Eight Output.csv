@@ -1,9 +1,9 @@
-﻿Branch Name,Days to complete adjustment,Number of Records,Stock Adjusted,Stock Variance,Stolen Volume,Theft,Type
-Oxford Street,6,1,03/25/2019,0,10,03/19/2019,Bar
-Wimbledon 1,1,1,03/01/2019,2,22,02/28/2019,Bar
-Wimbledon 2,60,1,04/03/2019,0,2,02/02/2019,Liquid
-Wimbledon 2,,1,,,5,04/03/2019,Bar
-Oxford Street,,1,,,14,03/22/2019,Liquid
-Oxford Street,2,1,03/01/2019,0,105,02/27/2019,Liquid
-Wimbledon 1,0,1,03/02/2019,0,100,03/02/2019,Liquid
-Oxford Street,3,1,03/25/2019,1,5,03/22/2019,Bar
+﻿Branch Name,Crime Ref Number,Days to complete Adjustment,Number of Records,Stock Adjusted,Stock Volume,Stock Variance,Theft,Type
+Oxford Street,S04P8,2,1,03/01/2019,105,0,02/27/2019,Liquid
+Oxford Street,S04P5,,1,,14,14,03/22/2019,Liquid
+Wimbledon 1,S04P7,1,1,03/01/2019,22,2,02/28/2019,Bar
+Wimbledon 2,S04P4,,1,,5,5,04/03/2019,Bar
+Wimbledon 1,S04P3,0,1,03/02/2019,100,0,03/02/2019,Liquid
+Oxford Street,S04P2,3,1,03/25/2019,5,1,03/22/2019,Bar
+Wimbledon 2,S04P6,60,1,04/03/2019,2,0,02/02/2019,Liquid
+Oxford Street,S04P1,6,1,03/25/2019,10,0,03/19/2019,Bar

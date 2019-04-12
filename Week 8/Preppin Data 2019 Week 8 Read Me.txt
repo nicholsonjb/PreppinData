@@ -1,6 +1,6 @@
 Preppin' Data 2019: Week 8
 Source: https://preppindata.blogspot.com/2019/04/2019-week-8.html
-Solution: 
+Solution: https://preppindata.blogspot.com/2019/04/2019-week-8-solution.html
 
 As we saw last week, Profits are rolling in nicely from Chin & Beard Suds Co. but all is not perfect at the company. 
 Recently our Suds shops have been the victim of a number of thefts.Thankfully our systems allow our stores to record the thefts, 
