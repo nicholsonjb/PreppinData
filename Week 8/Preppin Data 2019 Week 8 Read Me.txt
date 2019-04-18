@@ -24,7 +24,6 @@ Measure the variance in stolen stock and inventory adjustment
 *You will likely need Prep Builder v2019.1 as I used Rows to Columns pivot but you lot are innovative so who knows?*
 
 Output:
-
 8 Rows of data (9 including the header)
 8 Columns of data
 4 Null cells due to inventory updates not occurring

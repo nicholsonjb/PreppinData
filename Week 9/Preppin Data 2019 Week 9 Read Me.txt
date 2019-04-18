@@ -2,10 +2,8 @@ Preppin' Data 2019: Week 9
 Source: https://preppindata.blogspot.com/2019/04/2019-week-9.html
 Solution: https://preppindata.blogspot.com/2019/04/2019-week-9-solution.html
 
-
 The rollercoaster ride of Chin & Beard Suds Co continues unabated. 
 This time we have been asked by our Social Media manager to run our analytical minds over some questions on Complaints we receive via Twitter.
-
 
 Our Social Media manager has just pulled out the complaints for us to analyse where someone has tagged our Twitter handle @C&BSudsCo but then 
 followed up with some issues raised. We need to know the common themes of these tweets and be ready to re-run this analysis at any time. 
