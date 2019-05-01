@@ -1,0 +1,31 @@
+Preppin' Data 2019: Week 11
+Source: https://preppindata.blogspot.com/2019/04/2019-week-11.html
+Solution: https://preppindata.blogspot.com/2019/04/2019-week-11-solution.html
+
+This week is all about stocks but you have Ian Baldwin to thank for this challenge. He posed us the challenge of taking a JSON output from a shares website and turning it in to a file for use within Tableau.
+
+Tableau Prep does not have a connector to allow us to download the data from the site (yet??), or parse JSON (yet??), but we can take a very raw file and manipulate the data file to build out a table that we would commonly use in Tableau Desktop.
+
+Requirements
+
+
+
+Input data from the .csv (https://drive.google.com/open?id=1YOiv6mvObAfSQHZ8ZdBprT02LVlwdqbp)
+Break up the JSON_Name field
+Exclude 'meta' and '' records in the same column to just leave 'indicators' and 'timestamp'
+For the column containing our metrics, if this is blank, take the value from the 'indicators' / 'timestamp' column. Rename this field as 'Data Type'
+There is a column that will contain just numbers (up to 502). If this column is blank then take the value from the other column that contains similar values up to 502. Rename this field to 'Row'
+Rename 'JSON_ValueString' to 'Value'
+Only leave fields in your data set that have been renamed as per the instruction above.
+Pivot fields to form final table structure
+Turn Unix Epoch time in to a real date (http://lmgtfy.com/?q=unix+epoch+date)
+*You will likely need Prep Builder v2019.1 as I used Rows to Columns pivot but you lot are innovative so who knows?*
+
+
+Output
+
+8 columns
+503 rows of data (504 including headers)
+No null cells
+
+For comparison, here is our output file. (https://drive.google.com/open?id=1YH-BazU0w8FgZszo6NeRYee4ucZnVvrB)
