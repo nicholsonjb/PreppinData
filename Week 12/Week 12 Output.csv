@@ -1,0 +1,12 @@
+﻿% of system downtime,Total Downtime in Hours,Downtime in Hours,Error Source,Error,Start Date / Time,End Date / Time,System
+0.17,288.3,48,Manual capture error list,Planned Outage,07/13/2018 9:00:00 AM,07/15/2018 9:00:00 AM,Stock
+0.17,288.3,48,Manual capture error list,Planned Outage,08/13/2018 9:00:00 AM,08/15/2018 9:00:00 AM,Stock
+0.03,288.3,8.5,Automatic Error log,Planned Outage,09/12/2018 11:03:22 PM,09/13/2018 7:31:02 AM,Stock
+0.03,288.3,7.9,Automatic Error log,Planned Outage,08/12/2018 11:03:22 PM,08/13/2018 7:00:03 AM,Stock
+0.03,288.3,7.9,Automatic Error log,Planned Outage,07/12/2018 11:03:22 PM,07/13/2018 7:00:03 AM,Stock
+0.17,288.3,48,Automatic Error log,Planned Outage,06/13/2018 9:03:22 AM,06/15/2018 9:03:21 AM,Stock
+0.25,288.3,72,Automatic Error log,Planned Outage,05/13/2018 9:03:22 AM,05/16/2018 9:03:21 AM,Stock
+0.17,288.3,48,Automatic Error log,Planned Outage,04/13/2018 9:03:22 AM,04/15/2018 9:03:21 AM,Stock
+0.08,1.2,0.1,Automatic Error log,Unknown disc location,09/19/2018 2:57:00 PM,09/19/2018 3:02:20 PM,Sales
+0.5,1.2,0.6,Automatic Error log,Unknown disc location,08/19/2018 7:55:20 AM,08/19/2018 8:31:55 AM,Sales
+0.42,1.2,0.5,Automatic Error log,Disc full,04/13/2019 7:55:23 AM,04/13/2019 8:23:12 AM,Sales
