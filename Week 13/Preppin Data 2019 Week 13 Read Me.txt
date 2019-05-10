@@ -1,0 +1,41 @@
+Preppin' Data 2019: Week 13
+Source: https://preppindata.blogspot.com/2019/05/2019-week-13.html
+Solution:
+
+This week, we are looking at a common challenge in customer analytics - 
+the summary table. For new and intermediate analysts, the challenge of connecting to massive data sets and using all the 
+data points is all too tempting. However, complexity and software performance maybe hit due to trying to work out complex calculations or rendering vast numbers of data points. After all, 'Big Data', which means a lot of things to a lot of different people, encompassed this challenge among many others.
+
+In Financial Services, the regular flow of transactions is a wonderful data source for analysis but is also a challenge.
+To create more simplistic snapshots of behaviour (often around balances), balances would be averaged over a time period. 
+But what level do you need a customer's balance aggregated to? This is the challenge we will explore but for our favourite soap company, Chin & Beard Suds co.
+
+Using three different company's data who buy our products, we are looking at the balance of credit that they hold with us. 
+As any business owner will know, 'cashflow is king' and therefore, we only provide supplies to those who hold a positive balance with 
+us at the start of the month. But are these companies 'gaming' our system? We want to know:
+
+What is the average weekly, monthly and quarterly balance?
+What is the average weekly, monthly and quarterly transaction value?
+How many days does the customer have a negative balance?
+How many days does the customer exceed their credit limit? (credit limit is a positive number in the input but needs to be made negative as it how much we allow the customer to owe us)
+Requirements
+
+Input of Customer Details
+
+
+Input of Transactions
+Input data (https://drive.google.com/open?id=13V6aB8pgDJrczZ1BCrdXZ-RrCvNvEacH)
+Create an average (mean) for balance to two decimal places and average (mean) for transactions per customer to no decimal places, per time period
+Each row will be a customer per time period 
+Date recorded will be the beginning of that time period (ie first day in the week for the weekly table)
+Bring in the customer name
+Determine the number of days a customer's balance is below zero
+Determine the number of days a customer's balance is below their credit limit (ie have gone beyond our allowance).  
+
+Output
+3 Output files: weekly, monthly, quarterly
+Outputs (excluding headers in counts):
+Weekly: 81 rows, 8 columns
+Monthly: 18 rows, 8 columns
+Quarterly: 6 rows, 8 columns
+For comparison, here's our output files. (https://drive.google.com/open?id=1_wZAmZbouUQfCZOhgA4JXYOIREz2qybo) 
