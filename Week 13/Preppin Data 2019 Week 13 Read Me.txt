@@ -1,6 +1,6 @@
 Preppin' Data 2019: Week 13
 Source: https://preppindata.blogspot.com/2019/05/2019-week-13.html
-Solution:
+Solution:https://preppindata.blogspot.com/2019/05/2019-week-13-solution.html
 
 This week, we are looking at a common challenge in customer analytics - 
 the summary table. For new and intermediate analysts, the challenge of connecting to massive data sets and using all the 
