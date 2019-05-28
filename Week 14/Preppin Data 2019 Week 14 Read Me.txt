@@ -1,0 +1,42 @@
+Preppin' Data 2019: Week 14
+Source: https://preppindata.blogspot.com/2019/05/2019-week-14.html
+Solution: https://preppindata.blogspot.com/2019/05/each-week-i-normally-like-to-outline.html
+
+This week our challenge inspiration comes from Zen Master Emma Whyte. Please thank / blame [delete as applicable] her rather than Jonathan and myself this week.
+
+The challenge this week focuses on Whyte's Cafe based in Stevenage in the UK. The cafe has been growing well and brings in a good amount of revenue but like any business, 
+they are trying to drive for more. Many popular lunch shops provide a 'Meal Deal' when you can purchase a drink, a snack to go with a main for a set price. Whyte's Cafe wants to
+ know how much it would cost them to install a Meal Deal (for £5 each meal - what a bargain!) option on their menu as the ownership team believe it will entice a lot more customers through the door.
+
+The data set at Whyte's Cafe is largely excellent (we wouldn't expect anything less). Each row of data is a product sold as part of an order (ticket). 
+Some customers are members of the cafe (a loyalty scheme) that allows to understand who is ordering. Maybe for some future analysis we'll factor that in but for now we'll leave it in the final data set.
+
+Requirements
+
+Input data (https://drive.google.com/open?id=1cPReidJr4_rgl5f-FpxraMcEtsaL1Eoo)
+There's been a system error so clean up:
+-Null Price should be 1.5
+-Null MemberIDs should be 0
+Not every product goes in to the Meal Deal so we need to work out the 'Excess Items' cost on top of the Meal Deals. Use the average cost per type of product within that ticket to work this out.
+We only want to analyse tickets that would be affected by the Meal Deal
+The Meal Deal is set at £5 each
+Overall goal is to determine the difference between our original income and the income using the new pricing model. 
+
+Note: you will need version 2019.1 as the solutions we created all needed Rows to Columns
+
+Outputs
+What is the total variance between actual total ticket prices and the expected revenue from the meal deal procing?
+
+Provide a detailed output at the ticket level including:
+-Total Ticket Price (the total price without the affects of the new Meal Deal pricing)
+-Total Meal Deal Revenue (£5 multiplied by number of Meal Deals on the ticket)
+-Total Excess Products Revenue (additional items that aren't included in the Meal Deal)
+-Ticket and Member ID
+-Actual Ticket Revenue compared to Potential Revenue (Meal Deal Revenue plus Excess Product revenue)
+Depending on where you round the values will change the answer slightly (that's fine as we care more about the techniques)
+
+Detailed output:
+-20,278 rows (20,279 including headers)
+-6 columns of data
+-No Nulls
+For comparison, here's our output files.(https://drive.google.com/open?id=1d6pX82QZClhlIquequmO2EFRPAbzQIlt)
