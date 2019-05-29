@@ -1,0 +1,29 @@
+Preppin' Data 2019: Week 14
+Source: https://preppindata.blogspot.com/2019/05/2019-week-15.html
+Solution: https://preppindata.blogspot.com/2019/05/2019-week-15-solution.html
+
+This week, we are putting ourselves in the shoes of a family firm of stock-brokers. 
+The firm has a number of branches across the country,
+ but thankfully they have learned from previous challenges of Preppin' Data, 
+how to put together their lists of their clients purchases. 
+The regulators want to know whether there are any 'weird' behaviour from their clients. 
+Because their client base is quite small, they have agreed to send a file to the regular where the same 
+share has been purchased by multiple customers of the firm. To give the regulator more evidence, 
+they will share what percentage that sale makes up of the whole client portfolio of the firm and within the region.
+
+Requirements
+
+Input data (https://drive.google.com/open?id=1f_I0z-WKNyRu2JorBU1sPdmonXd1KdL0)
+Pull a list of clients purchases together across all their regions
+Determine the % of total sales each transaction makes up:
+In Region
+Across the whole firm
+The final file should only contain sales that are not the only purchase of that share. 
+Outputs
+
+11 Columns
+1012 Rows (1013 including Headers)
+No Nulls
+For comparison, here's our output files. (https://drive.google.com/open?id=1fU9sgvzOOvQsjOTjLga7VRuP56rl_Hhj)
+
+Note: Data formed in https://mockaroo.com/ which is brilliant for creating mocked up data to your particular scenario
