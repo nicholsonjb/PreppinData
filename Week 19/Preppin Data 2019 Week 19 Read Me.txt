@@ -1,0 +1,28 @@
+Preppin' Data 2019: Week 19
+Source: https://preppindata.blogspot.com/2019/06/2019-week-19.html
+Solution: https://preppindata.blogspot.com/2019/06/2019-week-19-solution.html
+
+Chin & Beard Suds Co. is growing from strength to strength and this has led us to think big - sponsorship!
+
+As a keen road cyclist, I use a lot of soap to stay clean from wet, muddy and sweaty rides so the sport choice was obvious. 
+The event to sponsor was even more so... the Tour de France! It starts in a couple of months so the only remaining question 
+is which team? 
+
+What we are looking for in the team to sponsor is a team that works really hard (ie are sweaty!) but are all consistently doing well as we don't want riders sponsoring our soap at the back of the pack or worst "slipping" off the back of the peloton. 
+
+Requirements
+
+Using the results from letour.fr of last year's race we want you to find the team for us to sponsor. The team must:
+Use the 2018 Tour de France results as your input (https://drive.google.com/file/d/1dzc8mt7RBWPcsEcmUPLEfRWUUGrzYlFb/view?usp=sharing)
+Make all time fields seconds before doing any of the calculations (we like precision at C&B Suds Co.)
+Have seven or more riders complete the tour
+Must average 100 minutes or less behind the leader as a team
+
+Output
+
+List of the teams that meet the requirements
+A file that contains the number of riders and avg. minutes behind the leader
+3 columns
+2 rows (3 including the header)
+
+Here's our output for comparison.(https://drive.google.com/file/d/1dhPClnANqsp9APOchrrxAmSdWji_beRK/view?usp=sharing)
