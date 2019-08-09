@@ -1,0 +1,27 @@
+Preppin' Data 2019: Week 22
+Source: https://preppindata.blogspot.com/2019/07/2019-week-22.html
+Solution: https://preppindata.blogspot.com/2019/07/2019-week-22-solution.html
+
+As heavy Tableau users at Chin & Beard Suds Co, our users keep asking us to show if it is possible to create a Moving Average. 
+As any Tableau User will know, this is super easy to set up in a table calculation (https://onlinehelp.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.htm)
+ but harder to do at the data preparation stage to hard code that value for use in other calculations that you might want to have
+ happen earlier in Tableau's Order of Operations (https://onlinehelp.tableau.com/current/pro/desktop/en-gb/order_of_operations.htm).
+
+Therefore, this week is focused on our daily sales at the start of 2019 and how we can work out the weekly average 
+(using the 7 days before the current date) to work that out.
+
+Requirements
+
+Input Data (https://drive.google.com/open?id=1mcPysMSByvguuvu7BY85oQZrMg3MJE_-)
+Determine the weekly average sales for the current day and the previous six
+Don't create a moving average if it isn't the average of seven days sales.
+Clean-up the data for output by removing unnecessary columns
+
+Outputs
+One file
+3 columns
+365 rows (366 rows including header)
+For comparison, here's our output files. (https://drive.google.com/open?id=1mY22ha-uMr9cWaOcE94V7V1B1BZ-MJgI)
+Hints (only read if you need too)
+To create the rows necessary - use a join to create additional rows with each days sales that will be used in the moving average.
+You shouldn't need a scaffold based on your join logic (ie it's a join condition that isn't '=')
