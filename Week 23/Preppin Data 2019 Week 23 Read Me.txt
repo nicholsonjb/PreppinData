@@ -1,0 +1,28 @@
+Preppin' Data 2019: Week 23
+Source: https://preppindata.blogspot.com/2019/07/2019-week-23.html
+Solution: https://preppindata.blogspot.com/2019/07/2019-week-23-solution.html
+
+We need to talk about Dave... he's a good salesman but he's not our analysts' best friend. 
+Dave is "too busy" to consistently enter his data. 
+He likes to sometimes hit CAPS LOCK. Does Dave even know the shift key exists?
+
+Our challenge this week is to tidy up the messy data Dave has left behind him by creating a nice data set so we can analyse his sales, 
+favourite customers etc.
+
+Requirements
+
+Input Data (https://drive.google.com/open?id=1oGFzBbOsvCKl0DpVMyd19l_-1Mhfnm_X)
+Bring in all tabs of the Excel Sheet
+Create the date of the sale
+Create a column for the scent of the product
+Create a column for the product
+Create a column for the customer name - with the customer's name in Title Case 
+Output
+
+One file
+6 columns of data
+18 rows of data (19 rows including headers)
+No nulls
+
+
+For comparison, here's our output files (https://drive.google.com/open?id=1nsnu_KBu5tLWNE3VD5_GwST4VpYKZyfn). 
