@@ -1,0 +1,33 @@
+Preppin' Data 2019: Week 21
+Source: https://preppindata.blogspot.com/2019/07/2019-week-21.html
+Solution: https://preppindata.blogspot.com/2019/07/2019-week-21-solution.html
+
+This week is a continuation of the challenge that we started last week. As a recap, check the challenge post from Preppin' Data week 20 (https://preppindata.blogspot.com/2019/06/2019-week-20.html).
+
+Like any data project, new data is flowing in continually and our patient data is no exception. 
+Sadly this week, we have received a CSV file instead of XLSX and we seem to have a different column name too...the joy of manual data capture.
+
+Also, last week, we had included an additional tab of data that we didn't set any requirements for (although some of you jumped in and worked with that anyway!). T
+he unused data was all about check-ups and how much additional cost they will place on Chin & Beard Suds Co. The same cost model is used but each check-up is classed as an individual visit.
+
+Requirements
+
+
+Add new Patient Data (https://drive.google.com/open?id=1jie7oypj2rCawbtelNg-zM22LI4txtuQ)
+Add Frequency of Check-Ups data
+Use Frequency of Check-Ups to determine when a patient will re-enter hospital by using Frequency from the date the patient leaves hospital
+Understand the additional cost incurred by the extra days stayed (treat each Check-up as a new entry in to hospital - ie Check-up day one is £100 no matter length of previous stay)
+Refresh the Data Outputs from Week 20
+
+Output
+Two files: 
+1. Daily Hospital Costs
+4 columns
+140 rows (141 rows incl. header)
+
+2. Cost per Patient
+
+3 columns
+21 rows (22 rows incl. header)
+
+Here's our output for comparison (https://drive.google.com/open?id=1jmqRxefvAvFCb59BTWW5J6FfBbaCMof2). 
