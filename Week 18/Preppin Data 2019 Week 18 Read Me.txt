@@ -1,0 +1,43 @@
+Preppin' Data 2019: Week 18
+Source: https://preppindata.blogspot.com/2019/06/2019-week-18.html
+Solution: https://preppindata.blogspot.com/2019/06/2019-week-18-solution.html
+
+Due to the comparable commercial successes of both Chin & Beard Suds Co and Your Name (Kimi No Na Wa) we've decided to pull together funding in order to produce a Chin & Beard Suds Co anime to raise our profile even further and hitting that otaku market.
+We're aiming to release a short series:
+Endless Legend of the Soap Heroes (Kono Sekken Wa Hidoi), 
+and a follow up movie: Endless Legend of the Soap Heroes: The Legend's End (Kono Sekken Wa Hidoi: Atsui Gomi No Kaori) by the end of 2022.
+
+
+However we haven't been able to decide on what genres to theme our anime around. 
+We'd like you to help us make this decision by using a bunch of data scrapped from MyAnimeList.net to figure out the most popular genres. We also want to find prime examples of these genres to rip-off copy trace-over just straight up put our own watermark on use for inspiration.
+
+Requirements
+
+Input the data (https://drive.google.com/open?id=13UMTEcPFRsW_okOHk5YZjfUlSy6aviwU).
+Consider only TV shows and Movies - we aren't making some straight to video OVA here.
+Ignore any anime without a rating or without any genres.
+Ignore any anime with less than 10000 viewers (i.e. [Members]) - we expect to have way more than this.
+For each genre and type combination (e.g. Action & TV, Romance & Movie) return the following information:
+The average rating (to 2 decimal places).
+The average viewership (to 0 decimal places).
+The maximum rating.
+A prime example of the genre and type combination (i.e. the anime with the max rating for the combo).
+
+Output
+One output file (https://drive.google.com/open?id=1843TKl7ZUCneyXE08BLR5eCCu6ThI2An).
+76 rows (77 including the header).
+6 fields:
+
+A snippet of the output.
+[Genre]
+[Type]
+[Avg Rating]
+[Max Rating]
+[Avg Viewership]
+[Prime Example]
+
+------------------------- SPOILERS BELOW -------------------------
+Hints
+You'll need to split up the [Genre] field and then pivot the results to get the Genre & Type combinations.
+On the [Members] field, trying clicking on the 3 dots and filtering on 'Range of Values' to set the viewership cutoff.
+To get both average and max ratings you'll either need to duplicate the [Ratings] field or use two separate aggregation steps.
