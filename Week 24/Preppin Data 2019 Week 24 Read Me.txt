@@ -1,0 +1,45 @@
+Preppin' Data 2019: Week 24
+Source: https://preppindata.blogspot.com/2019/07/2019-week-24.html
+Solution: https://preppindata.blogspot.com/2019/07/2019-week-24-solution.html
+
+Previously on Preppin' Data... (I'm still a 24 fan) a lot of Data Schoolers (https://www.thedataschool.co.uk/) have been working through the challenges and this
+ week they wanted to post their own so a big thank you goes out from Jonathan and I to 
+Kamilla (https://twitter.com/dombaikami) and Bona (https://twitter.com/bona_wang) of our fourteenth cohort at the Data School for this challenge. They don't know whether 
+it's too hard or not so please let them know!
+
+Both of the challengers this week love to use regex so wanted to give those who haven't had the chance to use the l
+anguage before the chance to explore it. If you want to stick with the string calculations you can but it might be a little tougher!
+
+If you haven't used regex before then the team recommend you use https://regexr.com/ to help you get to grips with what is going on.
+
+With all of that in mind, what is the challenge? 
+Analysing messages from the Data School What's App group. 
+Don't worry we are not sharing any insights in to what the Data Schoolers think of their coaches (phew!) as 
+they have replaced their actual messages with The Bards of Wales by Janos Arany, translated by Neville Masterman. 
+The real data is who sent the message and when plus an additional data source that let's you know
+ whether the day was a weekday / weekend day or public holiday (what us Brits call a Bank Holiday).
+
+Kamilla and Bona want the following questions answered:
+
+Who sent the most messages overall?
+Who sent the highest percentage of messages whilst at work?
+Working hours are 9a to 5pm with a lunch break 12-1
+Who sent the longest message?
+Who has the highest amount of words per message
+
+Requirements
+
+Use both input files found here (https://drive.google.com/open?id=1pTDgPHboqRDY6vOpdeQv2EN2lkTapyTL)
+You're not allowed to use the split function (they're mean aren't they!)
+Answer the questions above from one single output
+
+Output
+6 Columns
+Name
+Total Messages
+Work Hours Messages
+% sent whilst at work
+Total words sent
+Average words per message
+16 rows data (17 rows with headers)
+For comparison, here's our output files (https://drive.google.com/open?id=1pQoHr99xKrKNdio6BU_92ZfV96yGUMIe).
