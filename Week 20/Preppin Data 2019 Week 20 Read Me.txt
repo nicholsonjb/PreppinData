@@ -1,0 +1,30 @@
+Preppin' Data 2019: Week 20
+Source: https://preppindata.blogspot.com/2019/06/2019-week-20.html
+Solution: https://preppindata.blogspot.com/2019/07/2019-week-20-solution.html
+
+This week, Chin & Beard Suds Co. have had a local hospital get in contact about a number of patients who have had an allergic reaction to some of our products. 
+As a company who love our customers, we want to cover their medical expenses as we haven't labelled our products clearly enough (or people aren't reading the ingredients).
+
+We have managed to get hold of a list of patients: 
+
+
+But we need to look at the total cost of their hospital stays. 
+A daily cost has been quoted to us, but this differs on the length of stay as there are some admin costs for any new patient: 
+
+
+Requirements
+Use the various input sheets in the Excel file (https://drive.google.com/open?id=1ikwJWHbognrb6nrqtmv_OcCO1-D_V5wr)  to build a view of individual cost per day per patient.
+Use the scaffold provided to build out a complete data set that includes all days one of our customers is in the hospital
+To determine cost, you pay £100 for each of the first three days, then £80 for the next four days and then £75 for each of the following days.
+Aggregate the data to form a view of total cost and average cost.
+
+Outputs
+Two files: 
+1. Daily Hospital Costs
+	4 columns
+	33 rows of data (34 including headers)
+2. Cost per Patient
+	3 columns
+	9 rows of data (10 including headers)
+
+Here's our output for comparison (https://drive.google.com/open?id=1iaBP8N7YlgsTU4S_Fl-N6OXOSGgLam74). 
