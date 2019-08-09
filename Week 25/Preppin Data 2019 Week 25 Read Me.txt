@@ -1,0 +1,48 @@
+Preppin' Data 2019: Week 25
+Source: https://preppindata.blogspot.com/2019/07/2019-week-25-when-pd-met-workout.html
+Solution: https://preppindata.blogspot.com/2019/07/2019-week-25-when-pd-met-workout.html
+
+When Lorna (https://twitter.com/lorna_eden) suggested we set-up a challenge for Tableau users to not only complete a Workout Wedesday live but use
+Tableau Prep Builder to prepare their data then we jumped at the chance to collaborate. This week is held as a live session
+(I'm waving if you are in the room and if you're not here, you're welcome to take part too) so we have built a 
+combined challenge that should only take a few hours in total even if you new to either tool.
+
+So what's the challenge?
+To celebrate Tableau's Music month (https://www.tableau.com/community/music) Lorna found a great data source on one of her favourite artists (Ed Sheeran) 
+that led me to ask a question about one of my faves (Ben Howard). We want to analyse the two artists careers based on their 
+touring patterns and as two UK-based singer-songwriters who appeared on the UK music scene at similar times, how have they developed.
+
+The Preppin' Data part
+We have taken the gig history from concertarchives.org and done a little pre-cleaning as we wanted the challenge to take a 
+suitable amount of time and not be completely imposible. For this challenge we have given you this gigs data along with a file of 
+longitudes and latitudes for the location of the city / town hosting the gig. 
+
+By meeting the following requirements you will have your data set ready for the Workout Wednesday challenge:
+
+Requirements
+
+Gigs Data
+
+
+LongLats Data
+
+Input the data files found here (https://drive.google.com/open?id=1qY2UihshPfxwiO29Qao0qMphbiXikUVr)
+Join the data sets together
+We want to keep all of the 'Gigs Data' even if there isn't a matching Lat / Long
+Split LongLat field to form Longitude and Latitude then remove the original LongLat field
+Break up the Concert field to find Fellow Artists who performed in the same gig (nb. these artists are split up by a '/') and clean the field up by:
+If the Concert does not contain a "/" then Fellow Artists should be blank.
+Remove the Artist name (ie get rid of Ben / Ed) from the Fellow Artist field and just leave a blank.
+Each Fellow Artist should have their own row (including a null for Ben / Ed as they are THE Artist)
+Remove obvious duplicate records (don't group by Concert ID as it's a manual data entry site)
+Add in the Home locations for each of our featured artists from here
+
+Output
+1747 rows (1748 rows including the header)
+11 columns - order of the columns does not matter (as we are preparing this data for desktop)
+For comparison, here's our output files.(https://drive.google.com/open?id=1qXcmqWBVWfFccCz-19JxgQ3RIN-NsLiI)
+
+The Workout Wednesday part
+Go here to find the Workout Wednesday challenge (http://www.workout-wednesday.com/2019-week-31-when-workoutwednesday-meets-preppindata-can-you-create-a-hub-and-spoke-map/)
+ to complete the crossover challenge (https://public.tableau.com/profile/lorna.eden#!/vizhome/shared/2DZK96Y7R)
+Workout Wedensday Requires Tableau 2019.2
