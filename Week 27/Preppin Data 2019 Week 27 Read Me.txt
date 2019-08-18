@@ -5,7 +5,6 @@ Solution:
 At Chin & Beard Suds Co (our Preppin' Data fake company), one of our non-executive directors has asked about the effects of Valentine's Day on our store sales. Sadly, the non-exec director isn't very good with Table Calculations in Tableau Desktop so we have promised a data set to allow them to build their own views with all of the calculations pre-computed.
 
 Here's the dashboard the non-exec director wants:
-
 Here's my version (https://public.tableau.com/profile/carl.allchin#!/vizhome/ChinBeardValentineAnalysis/FebSalesChinBeard)
 
 Requirements:
