@@ -26,4 +26,4 @@ Daily Sales Value
 Running Sales Value (remember this should restart per store and post-Valentine's day)
 For comparison, here's our output files. (https://drive.google.com/open?id=1tPoD1dkNMuivnt41DiSTtXqaPtioXVdl)
 Hint
-If you haven't tried to build a Running Total in Prep Builder before then this blog might help (https://preppindata.blogspot.com/2019/07/2019-week-22-solution.html)
+If you haven't tried to build a Running Total in Prep Builder before then this blog might help (https://preppindata.blogspot.com/2019/07/2019-week-22-solution.html) 
