@@ -1,0 +1,29 @@
+Preppin' Data 2019: Week 27
+Source: https://preppindata.blogspot.com/2019/08/2019-week-27.html
+Solution: 
+
+At Chin & Beard Suds Co (our Preppin' Data fake company), one of our non-executive directors has asked about the effects of Valentine's Day on our store sales. Sadly, the non-exec director isn't very good with Table Calculations in Tableau Desktop so we have promised a data set to allow them to build their own views with all of the calculations pre-computed.
+
+Here's the dashboard the non-exec director wants:
+
+Here's my version (https://public.tableau.com/profile/carl.allchin#!/vizhome/ChinBeardValentineAnalysis/FebSalesChinBeard)
+
+Requirements:
+
+Input the Data (https://drive.google.com/open?id=1tUTG0-A9Q37abfaCdHyFq_7wApnWIIEX)
+Determine if the sales date is pre- or post- Valentine's day
+Work out the running total of sales for each store, restarting after Valentine's day to allow us to compare the two 14 day periods
+Output:
+
+One data set (and dashboard for bonus points - remember no table calcs!)
+Your output date should have:
+56 rows (57 including headers)
+5 columns:
+Date
+Store
+Pre / Post Valentine's day flag
+Daily Sales Value
+Running Sales Value (remember this should restart per store and post-Valentine's day)
+For comparison, here's our output files. (https://drive.google.com/open?id=1tPoD1dkNMuivnt41DiSTtXqaPtioXVdl)
+Hint
+If you haven't tried to build a Running Total in Prep Builder before then this blog might help (https://preppindata.blogspot.com/2019/07/2019-week-22-solution.html)
