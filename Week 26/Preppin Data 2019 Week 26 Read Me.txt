@@ -8,7 +8,6 @@ No cheating with copying and pasting formulas either - just use Prep Builder's f
 Last night, we went to have a burger at a local restuarant (hi Brickfields in Brockley!!) and I noticed their cocktail menu 
 looked ripe for a data prep challenge. What I wanted to understand is the cost of the ingredient linked to the price of the cocktail?
 
-
 Requirements 
 
 Input the data file (https://drive.google.com/open?id=1rspvsJYna87CAkV7FVye8W1aIw78xGI3)
