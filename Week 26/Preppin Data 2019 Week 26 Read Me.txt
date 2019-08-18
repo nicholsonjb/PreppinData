@@ -1,6 +1,6 @@
 Preppin' Data 2019: Week 26
 Source: https://preppindata.blogspot.com/2019/08/2019-week-26.html
-Solution: 
+Solution: https://preppindata.blogspot.com/2019/08/2019-week-26-solution.html 
 
 This week's challenge is to NOT USE TYPED CALCULATIONS in Prep to solve the challenge. 
 No cheating with copying and pasting formulas either - just use Prep Builder's functionality.
